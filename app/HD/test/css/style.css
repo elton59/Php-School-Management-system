@@ -1,0 +1,103 @@
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+
+
+input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: darkgreen;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(15, 92, 22);
+    border-radius:25px;
+  }
+  
+ table{
+     width: 100%;
+
+ }
+ tr:hover{
+     background-color: rgb(9, 82, 21);
+ }
+ tr:nth-child(even)
+ {
+     background-color: #f2f2f2;
+ }
+ th{
+     height: 50%;
+     padding: 8px;
+     background-color: rgb(11, 116, 25);
+     color: white;
+     border-bottom: 1px solid #ddd;
+
+ }
+ td{
+     height: 50px;
+     vertical-align: bottom;
+     padding: 15px;
+     border-bottom: 1px solid;
+ }
+
+
+
+    p {
+    text-align: center;
+    color: green;
+    font-size: 40px;
+}
+
+
+
+.center
+{
+    display: block;
+    width: 310px;
+    height: 150px;
+    padding-top: 2px;
+    border-radius: 25px;
+}
+
+form.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+fieldset
+{
+    border-radius: 25px;
+}
+
+select{
+    background-color: rgb(37, 49, 58);
+    color: white;padding: 16px;
+    margin-left: 28%;
+    width: 40%;
+    border-radius: 20px;
+}
+select:hover, .dropbtn:focus {
+    background-color: rgb(13, 71, 25);
+  }
+
